@@ -186,10 +186,10 @@
 public class Unit
 {
     // Свойства класса
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public int FactoryId { get; set; }
+    public int Id { get;}
+    public string Name { get;}
+    public string Description { get;}
+    public int FactoryId { get;}
 
     // Конструктор с параметрами
     public Unit(int id, string name, string description, int factoryId)
@@ -207,9 +207,9 @@ public class Unit
 public class Factory
 {
     // Свойства класса
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
+    public int Id { get;}
+    public string Name { get;}
+    public string Description { get;}
 
     // Конструктор с параметрами
     public Factory(int id, string name, string description)
@@ -227,12 +227,12 @@ public class Factory
 public class Tank
 {
     // Свойства класса
-    public int Id { get; set; }
-    public string Name { get; set; }
-    public string Description { get; set; }
-    public int Volume { get; set; }
-    public int MaxVolume { get; set; }
-    public int UnitId { get; set; }
+    public int Id { get;}
+    public string Name { get;}
+    public string Description { get;}
+    public int Volume { get;}
+    public int MaxVolume { get;}
+    public int UnitId { get;}
 
     // Конструктор с параметрами
     public Tank(int id, string name, string description, int volume, int maxVolume, int unitId)
